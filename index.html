@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        color: white;
+      }
+      body {
+        margin: 0;
+        background-color: #202028;
+      }
+      #testdiv {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 600px;
+        height: 300px;
+        transform: translate(-50%, -50%);
+        border: 1px solid white;
+      }
+      #stats {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        min-height: 50px;
+        margin: 5px;
+        border: 1px solid white;
+        padding: 5px;
+      }
+      .stats-item {
+        padding-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="testdiv"></div>
+    <div id="stats">
+      <div>
+        <span>mousemove</span>
+      </div>
+      <div class="stats-item">
+        <span>altKey: </span>
+        <span id="altKey"></span>
+      </div>
+      <div class="stats-item">
+        <span>button: </span>
+        <span id="button"></span>
+      </div>
+      <div class="stats-item">
+        <span>buttons: </span>
+        <span id="buttons"></span>
+      </div>
+      <div class="stats-item">
+        <span>clientX: </span>
+        <span id="clientX"></span>
+      </div>
+      <div class="stats-item">
+        <span>clientY: </span>
+        <span id="clientY"></span>
+      </div>
+      <div class="stats-item">
+        <span>ctrlKey: </span>
+        <span id="ctrlKey"></span>
+      </div>
+      <div class="stats-item">
+        <span>metaKey: </span>
+        <span id="metaKey"></span>
+      </div>
+      <div class="stats-item">
+        <span>movementX: </span>
+        <span id="movementX"></span>
+      </div>
+      <div class="stats-item">
+        <span>movementY: </span>
+        <span id="movementY"></span>
+      </div>
+      <div class="stats-item">
+        <span>offsetX: </span>
+        <span id="offsetX"></span>
+      </div>
+      <div class="stats-item">
+        <span>offsetY: </span>
+        <span id="offsetY"></span>
+      </div>
+      <div class="stats-item">
+        <span>pageX: </span>
+        <span id="pageX"></span>
+      </div>
+      <div class="stats-item">
+        <span>pageY: </span>
+        <span id="pageY"></span>
+      </div>
+      <div class="stats-item">
+        <span>region: </span>
+        <span id="region"></span>
+      </div>
+      <div class="stats-item">
+        <span>relatedTarget: </span>
+        <span id="relatedTarget"></span>
+      </div>
+      <div class="stats-item">
+        <span>screenX: </span>
+        <span id="screenX"></span>
+      </div>
+      <div class="stats-item">
+        <span>screenY: </span>
+        <span id="screenY"></span>
+      </div>
+      <div class="stats-item">
+        <span>shiftKey: </span>
+        <span id="shiftKey"></span>
+      </div>
+      <div class="stats-item">
+        <span>x: </span>
+        <span id="x"></span>
+      </div>
+      <div class="stats-item">
+        <span>y: </span>
+        <span id="y"></span>
+      </div>
+    </div>
+    <script type="text/javascript" src="mouse.js"></script>
+  </body>
+</html>
